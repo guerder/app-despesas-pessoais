@@ -20,7 +20,11 @@ class ExpensesApp extends StatelessWidget {
               headline6: TextStyle(
                 fontFamily: 'OpenSans',
                 fontSize: 20,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w700,
+              ),
+              button: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w700,
               ),
             ),
         appBarTheme: AppBarTheme(
@@ -28,7 +32,7 @@ class ExpensesApp extends StatelessWidget {
                 headline6: TextStyle(
                   fontFamily: 'OpenSans',
                   fontSize: 20,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w700,
                 ),
               ),
         ),
